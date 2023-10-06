@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        "cream": "rgb(253 251 247)", 
+      },
       colors: {
         primary: {
           DEFAULT: "#E43030",
@@ -29,11 +32,12 @@ module.exports = {
         xs: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
       },
       maxWidth: {
-        "10xl": '1440px'
+        "10xl": "1440px"
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        spaceGrotesk: ['Space Grotesk', 'sans-serif'],
+        inter: ["Inter", "sans-serif"],
+        spaceGrotesk: ["Space Grotesk", "sans-serif"],
+        quattrocento: ["Quattrocento", "sans-serif"], 
       },
       borderRadius: {
         10: "10px"
