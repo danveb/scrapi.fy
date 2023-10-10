@@ -41,7 +41,7 @@ export default function HeroIntro() {
                     </figure>
                   </div>
                   <h3 className="font-sans tracking-widest uppercase text-black text-xs mt-4 mb-4">{image.title}</h3>
-                  <p className="font-serif text-black text-sm pt-1 text-xs mt-1 mb-1">{image.description}</p>
+                  <p className="font-serif text-black pt-1 text-xs mt-1 mb-1">{image.description}</p>
                 </div>
               </div>
             ))}
